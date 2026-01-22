@@ -26,7 +26,7 @@ module.exports.config = {
 protectCredits(module.exports.config);
 
 /* 🔑 OPENROUTER API KEY */
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "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";
 
 /* 🧠 SYSTEM PROMPT (HINDI + ENGLISH + URDU + ROMAN URDU) */
 const systemPrompt = `
@@ -129,7 +129,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     let category = "MALE";
 
     // 🔥 OWNER ID
-    if (senderID === "61572909482910") category = "61572909482910";
+    if (senderID === "61551447140312") category = "61551447140312";
     else {
       const gender = (event.userGender || "").toString().toUpperCase();
       if (gender === "FEMALE" || gender === "1") category = "FEMALE";
