@@ -12,7 +12,7 @@ function protectCredits(config) {
 }
 
 module.exports.config = {
-  name: "ROMEO AI",
+  name: "ARIF-AI",
   version: "3.3.1",
   hasPermssion: 0,
   credits: "ROMEO",
